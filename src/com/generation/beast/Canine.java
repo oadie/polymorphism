@@ -20,9 +20,8 @@ public class Canine extends Beast {
         this.race = race;
     }
 
-    public Canine(String name, int legs) {
+    public Canine(String name) {
         super(name);
-        this.legs = legs;
     }
 
     public void bark() {
